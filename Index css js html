@@ -1,0 +1,2388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trey Mavrik | Official Website</title>
+
+    <meta name="description" content="Official website of Trey Mavrik. Listen to the latest music, watch videos, discover upcoming concerts and more.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+TREY MAVRIK
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="#featured">Featured Release</a></li>
+
+<li><a href="#music">Music</a></li>
+
+<li><a href="#videos">Videos</a></li>
+
+<li><a href="#concerts">Concerts</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>TREY MAVRIK</h1>
+
+<a href="#" class="button">
+LISTEN NOW
+</a>
+
+</div>
+
+</section>
+
+<section id="featured" class="featured">
+
+<h2>Featured Release</h2>
+
+<div class="release-card">
+
+<img
+src="images/album.jpg"
+alt="Album Artwork">
+
+<a href="#" class="button">
+LISTEN NOW
+</a>
+
+</div>
+
+</section>
+
+<section id="music" class="music">
+
+<h2>Music</h2>
+
+<div class="streaming-grid">
+
+<a href="#">Spotify</a>
+
+<a href="#">Apple Music</a>
+
+<a href="#">Deezer</a>
+
+<a href="#">Audiomack</a>
+
+<a href="#">Boomplay</a>
+
+<a href="#">SoundCloud</a>
+
+<a href="#">Amazon Music</a>
+
+<a href="#">YouTube Music</a>
+
+<a href="#">TIDAL</a>
+
+</div>
+
+</section>
+
+<section id="videos" class="videos">
+
+<h2>Videos</h2>
+
+<div id="videoContainer">
+
+<p>Add your YouTube links later.</p>
+
+</div>
+
+</section>
+
+<section id="concerts" class="concerts">
+
+<h2>Concerts</h2>
+
+<div id="concertContainer">
+
+<p>New concert dates coming soon.</p>
+
+</div>
+
+</section>
+
+<section class="socials">
+
+<h2>Follow</h2>
+
+<div class="social-icons">
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">Facebook</a>
+
+<a href="#">YouTube</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Trey Mavrik. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+/* =====================================================
+   TREY MAVRIK OFFICIAL WEBSITE
+   Squarespace-inspired Minimal Design
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:#ffffff;
+
+    color:#111111;
+
+    line-height:1.7;
+
+    overflow-x:hidden;
+
+}
+
+/* ==========================
+        Typography
+========================== */
+
+h1{
+
+    font-size:4rem;
+
+    font-weight:700;
+
+    letter-spacing:8px;
+
+    text-transform:uppercase;
+
+}
+
+h2{
+
+    font-size:2.2rem;
+
+    font-weight:600;
+
+    margin-bottom:40px;
+
+    letter-spacing:1px;
+
+}
+
+p{
+
+    font-size:1rem;
+
+    color:#555;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+/* ==========================
+        Header
+========================== */
+
+header{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    background:rgba(0,0,0,.75);
+
+    backdrop-filter:blur(15px);
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 8%;
+
+    z-index:999;
+
+}
+
+.logo{
+
+    color:#fff;
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:30px;
+
+}
+
+nav ul li a{
+
+    color:#fff;
+
+    font-size:.9rem;
+
+    transition:.3s;
+
+}
+
+nav ul li a:hover{
+
+    opacity:.65;
+
+}
+
+/* ==========================
+        Hero
+========================== */
+
+.hero{
+
+    position:relative;
+
+    width:100%;
+
+    height:100vh;
+
+    background:url("../images/hero.jpg") center center/cover no-repeat;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.58);
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    color:#fff;
+
+}
+
+.hero-content h1{
+
+    margin-bottom:40px;
+
+}
+
+.button{
+
+    display:inline-block;
+
+    padding:16px 44px;
+
+    border:1px solid #fff;
+
+    color:#fff;
+
+    font-size:.85rem;
+
+    letter-spacing:2px;
+
+    transition:.35s;
+
+}
+
+.button:hover{
+
+    background:#fff;
+
+    color:#000;
+
+}
+
+/* ==========================
+      Main Sections
+========================== */
+
+section{
+
+    padding:120px 8%;
+
+}
+
+.featured{
+
+    background:#fff;
+
+}
+
+.music{
+
+    background:#f8f8f8;
+
+}
+
+.videos{
+
+    background:#fff;
+
+}
+
+
+.release-card img{
+
+    width:100%;
+
+    border-radius:6px;
+
+    margin-bottom:35px;
+
+}
+
+
+
+/* ==========================
+   Streaming Platforms
+========================== */
+
+.streaming-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:24px;
+    margin-top:50px;
+}
+
+.streaming-grid a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:26px;
+    background:#ffffff;
+    border:1px solid #e5e5e5;
+    color:#111;
+    font-size:.95rem;
+    font-weight:500;
+    transition:all .3s ease;
+}
+
+.streaming-grid a:hover{
+    background:#111;
+    color:#fff;
+    transform:translateY(-4px);
+}
+
+/* ==========================
+   Videos
+========================== */
+
+#videoContainer{
+    max-width:1000px;
+    margin:0 auto;
+    display:grid;
+    gap:40px;
+}
+
+#videoContainer iframe{
+    width:100%;
+    aspect-ratio:16/9;
+    border:none;
+    border-radius:8px;
+}
+
+#videoContainer p{
+    text-align:center;
+    font-size:1rem;
+    color:#666;
+}
+
+/* ==========================
+   Concerts
+========================== */
+
+#concertContainer{
+    max-width:900px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.concert-card{
+    border:1px solid #e6e6e6;
+    padding:28px;
+    margin-bottom:24px;
+    transition:.3s ease;
+}
+
+.concert-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.concert-date{
+    font-size:1.1rem;
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+.concert-location{
+    color:#666;
+}
+
+/* ==========================
+   Socials
+========================== */
+
+.social-icons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:28px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.social-icons a{
+    padding:14px 24px;
+    border:1px solid #111;
+    transition:.3s ease;
+}
+
+.social-icons a:hover{
+    background:#111;
+    color:#fff;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer{
+    padding:40px 8%;
+    text-align:center;
+    border-top:1px solid #e5e5e5;
+    background:#fff;
+}
+
+footer p{
+    color:#666;
+    font-size:.9rem;
+    letter-spacing:.5px;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media (max-width:992px){
+
+    h1{
+        font-size:3rem;
+        letter-spacing:5px;
+    }
+
+    h2{
+        font-size:1.9rem;
+    }
+
+    nav ul{
+        gap:18px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    header{
+        flex-direction:column;
+        gap:18px;
+        padding:18px 6%;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:14px;
+    }
+
+    h1{
+        font-size:2.3rem;
+        letter-spacing:3px;
+    }
+
+    h2{
+        font-size:1.6rem;
+    }
+
+    section{
+        padding:90px 6%;
+    }
+
+    .button{
+        padding:14px 34px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    h1{
+        font-size:1.9rem;
+    }
+
+    h2{
+        font-size:1.4rem;
+    }
+
+    .streaming-grid{
+        grid-template-columns:1fr;
+    }
+
+}
+
+.concerts{
+
+    background:#f8f8f8;
+
+}
+
+.socials{
+
+    background:#fff;
+
+}
+
+/* ==========================
+ Featured Release
+========================== */
+
+.release-card{
+
+    max-width:520px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.release-card img{
+
+    width:100%;
+
+    border-radius:6px;
+
+    margin-bottom:35px;
+
+}
+
+
+
+
+// =====================================
+// TREY MAVRIK OFFICIAL WEBSITE
+// script.js
+// Part 4A
+// =====================================
+
+// Smooth Scroll Navigation
+
+document.querySelectorAll('nav a[href^="#"]').forEach(link => {
+
+    link.addEventListener('click', function(e){
+
+        e.preventDefault();
+
+        const target=document.querySelector(this.getAttribute('href'));
+
+        if(target){
+
+            target.scrollIntoView({
+
+                behavior:'smooth',
+
+                block:'start'
+
+            });
+
+        }
+
+    });
+
+});
+
+// =====================================
+// Header Scroll Effect
+// =====================================
+
+const header=document.querySelector("header");
+
+window.addEventListener("scroll",()=>{
+
+    if(window.scrollY>50){
+
+        header.style.background="rgba(0,0,0,.90)";
+        header.style.padding="18px 8%";
+
+    }
+
+    else{
+
+        header.style.background="rgba(0,0,0,.75)";
+        header.style.padding="22px 8%";
+
+    }
+
+});
+
+// =====================================
+// Fade In Animation
+// =====================================
+
+const sections=document.querySelectorAll("section");
+
+const observer=new IntersectionObserver((entries)=>{
+
+    entries.forEach(entry=>{
+
+        if(entry.isIntersecting){
+
+            entry.target.style.opacity="1";
+            entry.target.style.transform="translateY(0px)";
+
+        }
+
+    });
+
+},{
+
+    threshold:0.15
+
+});
+
+sections.forEach(section=>{
+
+    section.style.opacity="0";
+    section.style.transform="translateY(50px)";
+    section.style.transition="all .8s ease";
+
+    observer.observe(section);
+
+});
+
+// =====================================
+// Active Navigation
+// =====================================
+
+const navLinks=document.querySelectorAll("nav ul li a");
+
+window.addEventListener("scroll",()=>{
+
+    let current="";
+
+    sections.forEach(section=>{
+
+        const top=section.offsetTop-120;
+        const height=section.clientHeight;
+
+        if(scrollY>=top){
+
+            current=section.getAttribute("id");
+
+        }
+
+    });
+
+    navLinks.forEach(link=>{
+
+        link.classList.remove("active");
+
+        if(link.getAttribute("href")==="#"+current){
+
+            link.classList.add("active");
+
+        }
+
+    });
+
+});
+
+// =====================================
+// Listen Button Placeholder
+// =====================================
+
+const buttons=document.querySelectorAll(".button");
+
+buttons.forEach(button=>{
+
+    button.addEventListener("click",(e)=>{
+
+        if(button.getAttribute("href")==="#"){
+
+            e.preventDefault();
+
+            alert("Replace this link with your latest release.");
+
+        }
+
+    });
+
+});
+
+// =====================================
+// Streaming Platform Hover
+// =====================================
+
+document.querySelectorAll(".streaming-grid a").forEach(card=>{
+
+    card.addEventListener("mouseenter",()=>{
+
+        card.style.transform="translateY(-6px)";
+
+    });
+
+    card.addEventListener("mouseleave",()=>{
+
+        card.style.transform="translateY(0px)";
+
+    });
+
+});
+
+
+// =====================================
+// TREY MAVRIK OFFICIAL WEBSITE
+// script.js
+// Part 4B
+// =====================================
+
+// -----------------------------
+// YouTube Embed
+// -----------------------------
+
+function getYoutubeID(url){
+
+    const regExp=/^(?:.*(?:youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=))([^#&?\n]+)/;
+
+    const match=url.match(regExp);
+
+    return(match&&match[1].length===11)?match[1]:null;
+
+}
+
+function addVideo(url){
+
+    const id=getYoutubeID(url);
+
+    if(!id) return;
+
+    const container=document.getElementById("videoContainer");
+
+    container.innerHTML="";
+
+    const iframe=document.createElement("iframe");
+
+    iframe.src="https://www.youtube.com/embed/"+id;
+
+    iframe.loading="lazy";
+
+    iframe.allowFullscreen=true;
+
+    container.appendChild(iframe);
+
+}
+
+// Replace this later with your own YouTube link.
+addVideo("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+
+// -----------------------------
+// Concert Data
+// -----------------------------
+
+const concerts=[];
+
+function renderConcerts(){
+
+    const container=document.getElementById("concertContainer");
+
+    container.innerHTML="";
+
+    if(concerts.length===0){
+
+        container.innerHTML="<p>New concert dates coming soon.</p>";
+
+        return;
+
+    }
+
+    concerts.forEach(show=>{
+
+        const card=document.createElement("div");
+
+        card.className="concert-card";
+
+        card.innerHTML=`
+            <div class="concert-date">${show.date}</div>
+            <div class="concert-location">${show.city}</div>
+            <div>${show.venue}</div>
+        `;
+
+        container.appendChild(card);
+
+    });
+
+}
+
+renderConcerts();
+
+// -----------------------------
+// Current Year
+// -----------------------------
+
+const footer=document.querySelector("footer p");
+
+if(footer){
+
+    footer.innerHTML=`© ${new Date().getFullYear()} Trey Mavrik. All Rights Reserved.`;
+
+}
+
+// -----------------------------
+// Image Loading Animation
+// -----------------------------
+
+document.querySelectorAll("img").forEach(img=>{
+
+    img.addEventListener("load",()=>{
+
+        img.style.opacity="1";
+
+        img.style.transition="opacity .8s ease";
+
+    });
+
+});
+
+// -----------------------------
+// Reveal Hero Content
+// -----------------------------
+
+window.addEventListener("load",()=>{
+
+    const hero=document.querySelector(".hero-content");
+
+    hero.style.opacity="0";
+
+    hero.style.transform="translateY(30px)";
+
+    setTimeout(()=>{
+
+        hero.style.transition="all 1s ease";
+
+        hero.style.opacity="1";
+
+        hero.style.transform="translateY(0)";
+
+    },200);
+
+});
+
+// -----------------------------
+// Console Message
+// -----------------------------
+
+console.log("TREY MAVRIK Official Website Loaded Successfully");
+
+
+{
+  "site": {
+    "artist": "TREY MAVRIK",
+    "title": "Official Website",
+    "heroImage": "images/hero.jpg",
+    "heroButtonText": "LISTEN NOW",
+    "heroButtonLink": "#"
+  },
+
+  "featuredRelease": {
+    "title": "Featured Release",
+    "artwork": "images/album.jpg",
+    "buttonText": "LISTEN NOW",
+    "buttonLink": "#"
+  },
+
+  "music": [
+    {
+      "platform": "Spotify",
+      "url": "#"
+    },
+    {
+      "platform": "Apple Music",
+      "url": "#"
+    },
+    {
+      "platform": "Deezer",
+      "url": "#"
+    },
+    {
+      "platform": "Audiomack",
+      "url": "#"
+    },
+    {
+      "platform": "Boomplay",
+      "url": "#"
+    },
+    {
+      "platform": "SoundCloud",
+      "url": "#"
+    },
+    {
+      "platform": "Amazon Music",
+      "url": "#"
+    },
+    {
+      "platform": "YouTube Music",
+      "url": "#"
+    },
+    {
+      "platform": "TIDAL",
+      "url": "#"
+    }
+  ],
+
+  "videos": [
+    {
+      "title": "Latest Video",
+      "youtube": ""
+    }
+  ],
+
+  "concerts": [],
+
+  "about": {
+    "title": "About",
+    "bio": "Write your official artist biography here."
+  },
+
+  "socials": {
+    "instagram": "#",
+    "tiktok": "#",
+    "facebook": "#",
+    "youtube": "#"
+  },
+
+  "contact": {
+    "booking": "",
+    "business": "",
+    "collaboration": ""
+  },
+
+  "footer": {
+    "copyright": "© 2026 Trey Mavrik. All Rights Reserved."
+  }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>About | Trey Mavrik</title>
+
+<meta name="description" content="Learn more about Trey Mavrik.">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+TREY MAVRIK
+
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="index.html#featured">Featured Release</a></li>
+
+<li><a href="index.html#music">Music</a></li>
+
+<li><a href="index.html#videos">Videos</a></li>
+
+<li><a href="index.html#concerts">Concerts</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero small-hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>ABOUT</h1>
+
+</div>
+
+</section>
+
+<section class="about-page">
+
+<div class="about-container">
+
+<h2>Trey Mavrik</h2>
+
+<p>
+
+This page is fully editable.
+
+Replace this text with your official biography, your musical journey,
+your inspiration, achievements, upcoming projects, and anything you
+want fans, media, and promoters to know about you.
+
+</p>
+
+<p>
+
+You can also include awards, performances, collaborations, press
+features, milestones, and your future vision.
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Trey Mavrik. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+/* ==========================
+   About Page
+========================== */
+
+.small-hero{
+
+height:50vh;
+
+}
+
+.about-page{
+
+background:#ffffff;
+
+padding:120px 8%;
+
+}
+
+.about-container{
+
+max-width:850px;
+
+margin:auto;
+
+}
+
+.about-container h2{
+
+margin-bottom:35px;
+
+font-size:2.4rem;
+
+}
+
+.about-container p{
+
+margin-bottom:24px;
+
+font-size:1.05rem;
+
+line-height:1.9;
+
+color:#555;
+
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Trey Mavrik</title>
+    <meta name="description" content="Contact Trey Mavrik for bookings, business, and collaborations.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+TREY MAVRIK
+</div>
+
+<nav>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="index.html#featured">Featured Release</a></li>
+
+<li><a href="index.html#music">Music</a></li>
+
+<li><a href="index.html#videos">Videos</a></li>
+
+<li><a href="index.html#concerts">Concerts</a></li>
+
+<li><a href="about.html">About</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero small-hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>CONTACT</h1>
+
+</div>
+
+</section>
+
+<section class="contact-page">
+
+<div class="contact-container">
+
+<h2>Get In Touch</h2>
+
+<p>
+For bookings, business inquiries, collaborations, or other professional opportunities, use the contact details below.
+</p>
+
+<div class="contact-card">
+
+<h3>Booking</h3>
+
+<p>
+booking@email.com
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Business</h3>
+
+<p>
+business@email.com
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Collaboration</h3>
+
+<p>
+collaboration@email.com
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 Trey Mavrik. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+
+/* ==========================
+   Contact Page
+========================== */
+
+.contact-page{
+
+padding:120px 8%;
+
+background:#f8f8f8;
+
+}
+
+.contact-container{
+
+max-width:850px;
+
+margin:auto;
+
+}
+
+.contact-container h2{
+
+margin-bottom:25px;
+
+}
+
+.contact-container>p{
+
+margin-bottom:50px;
+
+}
+
+.contact-card{
+
+background:#ffffff;
+
+border:1px solid #e6e6e6;
+
+padding:30px;
+
+margin-bottom:25px;
+
+transition:.3s ease;
+
+}
+
+.contact-card:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+}
+
+.contact-card h3{
+
+font-size:1.15rem;
+
+margin-bottom:12px;
+
+font-weight:600;
+
+}
+
+.contact-card p{
+
+color:#666;
+
+word-break:break-word;
+
+}
+
+<!-- Replace the contents inside the <body> of index.html with this -->
+
+<header>
+
+    <div class="logo">TREY MAVRIK</div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#featured">Featured</a></li>
+
+            <li><a href="#music">Music</a></li>
+
+            <li><a href="#videos">Videos</a></li>
+
+            <li><a href="#concerts">Concerts</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+
+        <h1>TREY MAVRIK</h1>
+
+        <a href="#" class="button">
+            LISTEN NOW
+        </a>
+
+    </div>
+
+</section>
+
+
+<section id="featured" class="featured">
+
+    <h2>Featured Release</h2>
+
+    <div class="release-card">
+
+        <img src="images/album.jpg" alt="Album Artwork">
+
+        <h3>Latest Release</h3>
+
+        <p>
+            Replace this with your newest single, EP or album.
+        </p>
+
+        <a href="#" class="button">
+            LISTEN NOW
+        </a>
+
+    </div>
+
+</section>
+
+
+<section id="music" class="music">
+
+<h2>Streaming Platforms</h2>
+
+<div class="streaming-grid">
+
+<a href="#">Spotify</a>
+
+<a href="#">Apple Music</a>
+
+<a href="#">Deezer</a>
+
+<a href="#">Audiomack</a>
+
+<a href="#">Boomplay</a>
+
+<a href="#">SoundCloud</a>
+
+<a href="#">Amazon Music</a>
+
+<a href="#">YouTube Music</a>
+
+<a href="#">TIDAL</a>
+
+</div>
+
+</section>
+
+
+<section id="videos" class="videos">
+
+<h2>Latest Videos</h2>
+
+<div id="videoContainer"></div>
+
+</section>
+
+
+<section id="concerts" class="concerts">
+
+<h2>Upcoming Concerts</h2>
+
+<div id="concertContainer">
+
+<p>
+
+New concert dates coming soon.
+
+</p>
+
+</div>
+
+</section>
+
+
+<section class="socials">
+
+<h2>Follow Trey Mavrik</h2>
+
+<div class="social-icons">
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">Facebook</a>
+
+<a href="#">YouTube</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+
+© 2026 Trey Mavrik. All Rights Reserved.
+
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+
+
+/* ==========================
+   Featured Release Upgrade
+========================== */
+
+.release-card h3{
+
+font-size:1.6rem;
+
+margin-bottom:15px;
+
+}
+
+.release-card p{
+
+max-width:550px;
+
+margin:0 auto 35px;
+
+}
+
+
+/* ==========================
+   Better Buttons
+========================== */
+
+.button{
+
+border-radius:50px;
+
+font-weight:600;
+
+letter-spacing:2px;
+
+}
+
+
+/* ==========================
+   Hero Animation
+========================== */
+
+.hero-content{
+
+animation:fadeHero 1.3s ease;
+
+}
+
+@keyframes fadeHero{
+
+from{
+
+opacity:0;
+
+transform:translateY(35px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+
+/* ==========================
+   Section Titles
+========================== */
+
+section h2{
+
+text-align:center;
+
+margin-bottom:60px;
+
+}
+
+
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Trey Mavrik | Official Website</title>
+
+<meta name="description" content="Official website of Trey Mavrik. Listen to the latest music, watch videos, discover new releases and upcoming concerts.">
+
+<meta name="keywords" content="Trey Mavrik, Trey Mavrik music, Afrobeats, Artist, Official Website, Music, Songs">
+
+<meta name="author" content="Trey Mavrik">
+
+<meta name="robots" content="index,follow">
+
+<meta name="theme-color" content="#000000">
+
+<link rel="canonical" href="https://www.yourdomain.com/">
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<meta property="og:type" content="website">
+
+<meta property="og:title" content="Trey Mavrik | Official Website">
+
+<meta property="og:description" content="Listen to Trey Mavrik's latest music, watch videos, and stay updated with new releases.">
+
+<meta property="og:image" content="images/social-preview.jpg">
+
+<meta property="og:url" content="https://www.yourdomain.com/">
+
+<meta property="og:site_name" content="Trey Mavrik">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="Trey Mavrik | Official Website">
+
+<meta name="twitter:description" content="Official website of Trey Mavrik.">
+
+<meta name="twitter:image" content="images/social-preview.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+/* ===================================
+   Performance & Professional Polish
+=================================== */
+
+img{
+
+display:block;
+
+max-width:100%;
+
+height:auto;
+
+user-select:none;
+
+-webkit-user-drag:none;
+
+}
+
+iframe{
+
+display:block;
+
+max-width:100%;
+
+}
+
+html{
+
+scroll-padding-top:90px;
+
+}
+
+body{
+
+text-rendering:optimizeLegibility;
+
+-webkit-font-smoothing:antialiased;
+
+-moz-osx-font-smoothing:grayscale;
+
+}
+
+/* Better Keyboard Accessibility */
+
+a:focus,
+button:focus{
+
+outline:2px solid #ffffff;
+
+outline-offset:4px;
+
+}
+
+/* Selection */
+
+::selection{
+
+background:#111111;
+
+color:#ffffff;
+
+}
+
+/* Smooth Image Hover */
+
+.release-card img{
+
+transition:transform .45s ease;
+
+}
+
+.release-card img:hover{
+
+transform:scale(1.02);
+
+}
+
+/* Better Section Width */
+
+.about-container,
+.contact-container,
+.release-card,
+#videoContainer,
+#concertContainer{
+
+max-width:1100px;
+
+margin-left:auto;
+
+margin-right:auto;
+
+}
+
+/* Prevent Content Shift */
+
+.hero{
+
+min-height:100vh;
+
+}
+
+/* Fade Transition */
+
+body{
+
+animation:pageFade .8s ease;
+
+}
+
+@keyframes pageFade{
+
+from{
+
+opacity:0;
+
+}
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+
+<button id="backToTop" aria-label="Back to top">
+
+↑
+
+</button>
+
+
+
+// ===============================
+// Back To Top Button
+// ===============================
+
+const backToTop=document.getElementById("backToTop");
+
+window.addEventListener("scroll",()=>{
+
+if(window.scrollY>500){
+
+backToTop.style.opacity="1";
+backToTop.style.pointerEvents="auto";
+
+}else{
+
+backToTop.style.opacity="0";
+backToTop.style.pointerEvents="none";
+
+}
+
+});
+
+backToTop.addEventListener("click",()=>{
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+});
+
+
+
+/* ==========================
+   Back To Top Button
+========================== */
+
+#backToTop{
+
+position:fixed;
+
+right:25px;
+
+bottom:25px;
+
+width:52px;
+
+height:52px;
+
+border:none;
+
+border-radius:50%;
+
+background:#111111;
+
+color:#ffffff;
+
+font-size:20px;
+
+cursor:pointer;
+
+opacity:0;
+
+pointer-events:none;
+
+transition:.35s ease;
+
+z-index:9999;
+
+}
+
+#backToTop:hover{
+
+transform:translateY(-4px);
+
+}
+
+
+/* ==========================================
+   PART 11 - FINAL UI POLISH
+========================================== */
+
+/* Section Fade */
+
+section{
+
+transition:opacity .6s ease,transform .6s ease;
+
+}
+
+/* Navigation */
+
+header{
+
+transition:
+background .35s ease,
+padding .35s ease,
+box-shadow .35s ease;
+
+}
+
+header.scrolled{
+
+box-shadow:0 10px 35px rgba(0,0,0,.12);
+
+}
+
+/* Active Navigation */
+
+nav a.active{
+
+opacity:1;
+
+font-weight:600;
+
+border-bottom:1px solid #ffffff;
+
+padding-bottom:6px;
+
+}
+
+/* Hero */
+
+.hero-content{
+
+max-width:900px;
+
+margin:auto;
+
+padding:0 20px;
+
+}
+
+.hero h1{
+
+line-height:1.05;
+
+}
+
+/* Buttons */
+
+.button{
+
+min-width:190px;
+
+text-align:center;
+
+transition:
+background .35s ease,
+color .35s ease,
+transform .35s ease,
+box-shadow .35s ease;
+
+}
+
+.button:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 15px 35px rgba(0,0,0,.18);
+
+}
+
+/* Release Card */
+
+.release-card{
+
+transition:transform .35s ease;
+
+}
+
+.release-card:hover{
+
+transform:translateY(-5px);
+
+}
+
+/* Music Cards */
+
+.streaming-grid a{
+
+border-radius:14px;
+
+}
+
+.streaming-grid a:hover{
+
+box-shadow:0 15px 30px rgba(0,0,0,.08);
+
+}
+
+/* Video */
+
+#videoContainer iframe{
+
+box-shadow:0 12px 30px rgba(0,0,0,.12);
+
+}
+
+/* Contact Cards */
+
+.contact-card{
+
+border-radius:14px;
+
+}
+
+/* Footer */
+
+footer{
+
+font-size:.92rem;
+
+}
+
+/* Better Mobile */
+
+@media(max-width:768px){
+
+header{
+
+padding:16px 5%;
+
+}
+
+.logo{
+
+font-size:.9rem;
+
+letter-spacing:3px;
+
+}
+
+.hero{
+
+padding-top:90px;
+
+}
+
+.hero h1{
+
+font-size:2.2rem;
+
+}
+
+.button{
+
+width:100%;
+
+max-width:280px;
+
+}
+
+.streaming-grid{
+
+gap:16px;
+
+}
+
+.social-icons{
+
+gap:16px;
+
+}
+
+.contact-card{
+
+padding:24px;
+
+}
+
+}
+
+/* Small Phones */
+
+@media(max-width:480px){
+
+.hero h1{
+
+font-size:1.8rem;
+
+letter-spacing:2px;
+
+}
+
+h2{
+
+font-size:1.35rem;
+
+}
+
+section{
+
+padding:80px 24px;
+
+}
+
+}
+
+/* Large Desktop */
+
+@media(min-width:1440px){
+
+.hero-content{
+
+max-width:1100px;
+
+}
+
+section{
+
+padding-left:10%;
+
+padding-right:10%;
+
+}
+
+}
+
+
+// ======================================
+// Header Shadow on Scroll
+// ======================================
+
+window.addEventListener("scroll",()=>{
+
+const header=document.querySelector("header");
+
+if(window.scrollY>40){
+
+header.classList.add("scrolled");
+
+}else{
+
+header.classList.remove("scrolled");
+
+}
+
+});
+
+// ======================================
+// External Links
+// ======================================
+
+document.querySelectorAll("a").forEach(link=>{
+
+const href=link.getAttribute("href");
+
+if(href && href.startsWith("http")){
+
+link.setAttribute("target","_blank");
+
+link.setAttribute("rel","noopener noreferrer");
+
+}
+
+});
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+
+<loc>https://www.yourdomain.com/</loc>
+
+<priority>1.0</priority>
+
+</url>
+
+<url>
+
+<loc>https://www.yourdomain.com/about.html</loc>
+
+<priority>0.8</priority>
+
+</url>
+
+<url>
+
+<loc>https://www.treymavrik.com/contact.html</loc>
+
+<priority>0.8</priority>
+
+</url>
+
+</urlset>
+
+
+
+
+{
+  "project_update": {
+    "version": "2.0",
+    "design": {
+      "style": "Premium modern artist portfolio",
+      "inspiration": "Squarespace",
+      "responsive": true,
+      "clean_layout": true,
+      "smooth_animations": true,
+      "minimal": true,
+      "fast_loading": true
+    },
+    "owner": {
+      "full_control": true,
+      "admin_dashboard": true,
+      "owner_only_access": true,
+      "live_updates": true
+    },
+    "content_management": {
+      "editable_everything": true,
+      "upload_unlimited_images": true,
+      "upload_unlimited_videos": true,
+      "upload_unlimited_audio": true,
+      "upload_unlimited_documents": true,
+      "upload_unlimited_music_links": true,
+      "upload_unlimited_streaming_links": true,
+      "upload_unlimited_social_links": true,
+      "upload_unlimited_artist_links": true,
+      "embed_any_video": true,
+      "replace_content": true,
+      "delete_content": true,
+      "reorder_content": true,
+      "create_new_sections": true,
+      "delete_sections": true,
+      "duplicate_sections": true
+    },
+    "editor": {
+      "edit_text": true,
+      "edit_titles": true,
+      "edit_buttons": true,
+      "edit_images": true,
+      "edit_videos": true,
+      "edit_backgrounds": true,
+      "edit_colors": true,
+      "edit_spacing": true,
+      "edit_layout": true,
+      "edit_navigation": true,
+      "drag_and_drop": true
+    },
+    "fonts": {
+      "custom_font_support": true,
+      "upload_custom_fonts": true,
+      "branding_font": {
+        "preferred_font": "Northwell Clean",
+        "apply_to": [
+          "artist_name",
+          "logo",
+          "bio",
+          "signature",
+          "about_me",
+          "quotes",
+          "hero_text"
+        ]
+      },
+      "heading_font": {
+        "editable": true,
+        "apply_to": [
+          "navigation",
+          "section_titles",
+          "buttons",
+          "cards",
+          "footer"
+        ]
+      }
+    },
+    "icons": {
+      "official_social_icons": true,
+      "official_music_platform_icons": true,
+      "automatic_icon_display": true
+    },
+    "supported_platforms": {
+      "social_media": [
+        "Instagram",
+        "TikTok",
+        "Facebook",
+        "X",
+        "Threads",
+        "YouTube",
+        "Snapchat",
+        "LinkedIn"
+      ],
+      "music_platforms": [
+        "Spotify",
+        "Apple Music",
+        "Audiomack",
+        "Boomplay",
+        "SoundCloud",
+        "YouTube Music",
+        "Deezer",
+        "Tidal",
+        "Amazon Music"
+      ]
+    },
+    "requirements": [
+      "The website must function like Squarespace with a visual admin dashboard.",
+      "I must never need to edit HTML, CSS, JavaScript or JSON after publishing.",
+      "Every future update must be done by me from the dashboard.",
+      "I must be able to upload unlimited content at any time.",
+      "Every social media and music platform link must automatically display its official icon.",
+      "The website must remain modern, premium, responsive and easy to manage."
+    ]
+  }
+}
+
+
+
+{
+  "fonts": {
+    "custom_font_support": true,
+    "allow_font_upload": true,
+    "primary_brand_font": {
+      "font_name": "Northwell Clean",
+      "use_exact_font": true,
+      "do_not_substitute": true,
+      "preserve_original_style": true,
+      "apply_to": [
+        "artist_name",
+        "logo",
+        "hero_title",
+        "bio",
+        "about",
+        "signature",
+        "quotes",
+        "featured_text"
+      ]
+    }
+  },
+  "requirement": "The website must support uploading and using the original Northwell Clean font file. The font must be rendered exactly as designed, without substitution or imitation, and remain fully editable through the admin dashboard."
+}
+
+
+
+
+
